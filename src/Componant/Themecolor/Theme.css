@@ -1,0 +1,21 @@
+.theme-toggler {
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    backdrop-filter: blur(.4rem);
+}
+.theme-toggler.theme1 {
+    background: linear-gradient(rgb(227, 233, 227), rgb(240, 240, 241));
+}
+.theme-toggler.theme2 {
+    background: linear-gradient(lightgreen, rgb(241, 166, 181));
+}
+.theme-toggler.theme3 {
+    background:linear-gradient(rgb(240, 236, 239), rgb(212, 143, 143))
+}
+.theme-toggler.theme4 {
+    background:linear-gradient(rgba(233, 67, 7, 0.24), rgb(162, 226, 43))
+}
+.theme-toggler.theme5 {
+    background:linear-gradient(hsla(93, 36%, 65%, 0.473), rgba(115, 120, 165, 0.596))
+}

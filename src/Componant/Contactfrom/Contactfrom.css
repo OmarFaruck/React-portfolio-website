@@ -1,0 +1,48 @@
+label.text-light.form-label {
+    font-size: 23px;
+}
+.new_link.new {
+    padding: 1px;
+    color: #514f5dde !important;
+    padding-top: 14px !important;
+    border-radius: 10px;
+}
+.new_link p:hover {
+    color: red;
+}
+.new_link p {
+    color: #020a10;
+}
+.new_link a {
+    color: #020a10;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.new_link p {
+    font-size: 27px;
+    display: flex;
+    color: #020a10;
+    justify-content: center;
+    align-items: center;
+}
+button.btn.text-light.w-100.mt-3.mb-3.submit.btn.btn-primary {
+    color: white;
+    padding: 12px;
+}
+input.form-control {
+    padding: 13px !important;
+}
+svg.phone1 {
+    font-size: 45px; 
+    margin-right: 10px;
+}
+svg.phone {
+    font-size: 45px; 
+    margin-right: 15px;
+}
+svg.Google  {
+    font-size: 45px;  
+}
+svg.github  {
+    font-size: 45px;  
+}

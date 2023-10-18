@@ -1,0 +1,82 @@
+.service_box {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 54%);
+}
+.service_box p { 
+    font-family: ui-sans-serif;
+    margin: 8px 0px;
+    font-family: ui-sans-serif;
+    color: #1111119c;
+    font-size: 1.2rem;
+    padding-top: .5rem;
+}
+.service_box h3 {
+    font-family: ui-sans-serif;
+    color: #1111119c;
+    margin: 8px 0px;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.service_box h4 {
+    font-family: ui-sans-serif;
+    color: #1111119c;
+    margin: 7px 0px;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+.service_box svg {
+    line-height: 6rem;
+    font-size: 4rem;
+    color: #fff;
+    padding: 13px;
+    background: #E38528;
+    border-radius: 50%;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .service_box h3 { 
+        font-size: 2rem; 
+    }
+    .service_box h4 { 
+        font-size: 1.4rem;
+    }
+    h1.heading.service {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .service_box h4 { 
+        font-size: 1.4rem !important;
+        margin-top: 18px;
+    }
+    h1.heading.service {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .service_box h3 { 
+        font-size: 1.7rem; 
+    }
+    .service_box h4 {  
+        font-size: 1.3rem;
+        padding-top: 1.4rem;
+    }
+   
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .service_box h3 { 
+        font-size: 1.7rem; 
+    }
+    .service_box h4 {  
+        font-size: 1.3rem;
+        padding-top: 1.4rem;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+    
+}

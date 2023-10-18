@@ -1,0 +1,33 @@
+.ms-auto.navbar-nav {
+    font-size: 20px;
+    font-family: ui-sans-serif;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+a.nav-link.active {
+    color: #000000b0 !important;
+}
+img.img-fluid.mx-auto.logo {
+    width: 55px;
+}
+
+.nav-link.sing_in {
+    text-align: center;
+    margin-left: 13px;
+    border: 1px solid #afa49a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn.sing_out{
+    text-align: center;
+    margin-left: 13px;
+    border: 1px solid #1f1c19;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

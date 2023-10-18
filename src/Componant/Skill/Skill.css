@@ -1,0 +1,28 @@
+section#skills p { 
+    font-size: 1.4rem;
+    color: #1111119c; 
+    font-family: ui-sans-serif;
+}
+.skill_box { 
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.skills_at {
+    flex: 1 1 15rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 43%);
+}
+.skills h3,p {
+    color: #E28528; 
+    font-family: ui-sans-serif;
+    font-weight: 600;
+}
+h3,p.skill_text {
+    text-align: center;
+}
+ 
+

@@ -1,0 +1,105 @@
+ .information h1{
+    font-weight: 600;
+    font-family: ui-sans-serif;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #f8f8f8 !important;
+    text-transform: uppercase;
+ }
+ .information {
+    padding-bottom: 18px;
+    background-color: #514f5dde;
+    padding-top: 30px;
+    width: 100% !important;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.text-center {
+    color: #EFEFEF;
+    font-family: ui-sans-serif;
+    padding-bottom: 20px;
+}
+.con_information {
+    display: flex;
+}
+svg.phone {
+    font-size: 45px;
+    margin-left: 40px;
+}
+.con_information p {
+    color: white;
+    font-family: ui-sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+svg.envelope {
+    color: white !important;
+    margin-top: 7px;
+    font-size: 45px;
+    margin-left: 40px;
+}
+svg.Google {
+    color: white !important;
+    font-size: 35px;
+    /* margin-left: 96px; */
+}
+svg.facebook {
+    color: white !important;
+    font-size: 35px;
+    /* margin-left: 40px; */
+}
+svg.github {
+    color: white !important;
+    font-size: 35px;
+    /* margin-left: 40px; */
+}
+svg.envelope_1 {
+    color: white !important;
+    font-size: 35px;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .con_information {
+        display: grid !important;
+    }
+    .information h1 { 
+        font-size: 1.2rem !important; 
+    }
+    /* .con_information svg { 
+        width: 80% !important; 
+    } */
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .con_information {
+        display: flex !important;
+    }
+    .information h1 { 
+        font-size: 1.2rem !important; 
+    }
+    svg.phone { 
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .con_information {
+        display: grid !important;
+    }
+    .information h1 { 
+        font-size: 1.2rem !important; 
+    }
+    .con_information svg { 
+        width: 80%; 
+    }
+    svg.phone { 
+        margin-left: 18px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    svg.phone { 
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+  
+}

@@ -1,0 +1,196 @@
+.heading {
+    font-weight: 600; 
+    font-family: ui-sans-serif;
+    font-size: 2.7rem;
+    padding-bottom: 1rem;
+    color: #1111119c;
+    text-transform: uppercase;
+}
+img.mx-auto.d-block.img2 {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+}
+.contents {
+    margin-left: 40px;
+    text-align: center;
+}
+.box {
+    text-align: left;
+}
+.contents p {
+    font-family: ui-sans-serif;
+    color: #666;
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    margin-bottom: 4px;
+}
+.contents h3 {
+    font-family: ui-sans-serif;
+    color: #1111119c;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.box p span {
+    color: #e38528;
+    font-size: 20px;
+}
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+ 
+button.btn1 {
+    padding: 17px;
+    color: white;
+    background-color: #E38528;
+    border-radius: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: none;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    h1.heading {
+        font-size: 25px !important;
+        text-align: center;
+        margin-left: 0px !important;
+    }
+    img.mx-auto.d-block.img2 {
+        width: 100% !important;
+    }
+    .contents h3 { 
+        font-size: 1.5rem !important; 
+    }
+    .box-container {
+        display: grid !important; 
+    }
+    .contents p { 
+        font-size: 1rem; 
+    }
+    .box {
+        text-align: center !important;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+    img.mx-auto.d-block.img2 {
+        width: 100% !important;
+        height: 670px !important;
+    }
+   
+    button.btn1 {
+        margin-bottom: 15px; 
+    }
+    h1.heading { 
+        text-align: center; 
+    } 
+    .box {
+        display: grid;
+        width: 100%;
+    }
+    .box.box2 { 
+        display: grid !important;
+        width: 100%;
+    }
+    a.nav-link {
+        margin: 0px 20px;
+    }
+    .box p span {
+        font-size: 26px;
+    }
+    .contents h3 { 
+        font-size: 1.9rem; 
+    }
+    .contents p {
+        font-size: 1.4rem !important;
+    }
+    .box {
+        text-align: center !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    h1.heading { 
+        text-align: center; 
+    }
+    img.mx-auto.d-block.img2 {
+        width: 100% !important;
+    }
+    .box {
+        display: flex;
+        width: 100%; 
+    }
+    .contents h3 {
+        font-size: 1.9rem;
+    }
+    .heading { 
+        text-align: center;
+    }
+    .contents p {
+        margin: 0px 15px; 
+    }
+ 
+    button.btn1 {
+        margin-bottom: 15px; 
+    }
+    .box.box2 p{
+        text-align: center;
+        line-height: 23px;
+    }
+    .box-container {
+        display: flex !important;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding: 0.5rem 0;
+    }
+    .box.box2 {
+        display: flex !important;
+    }
+    a.nav-link {
+        margin-left: 16px;
+    }
+    .box p span {
+        font-size: 18px;
+    }
+    .box p {
+        font-size: 15px !important;
+    }
+    .box {
+        text-align: center !important;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .heading {
+        text-align: center; 
+    }
+    .contents h3 {
+        font-size: 1.7rem;
+    }
+    .box {
+        display: flex;
+    }
+    .box.box2 {
+        width: 100%;
+        display: flex !important;
+    }    
+    .contents p {
+        margin: 0px 4px;
+        font-size: 1rem;
+    }
+    a.nav-link {
+        margin-left: 19px;
+    }
+    .box p span { 
+        font-size: 15px; 
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+  
+}
